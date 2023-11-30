@@ -1,85 +1,214 @@
 <!DOCTYPE html>
-<title>VIP ဖိုင်များ ဝင်ဒေါင်းရန်</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<html>
 <head>
-    
-<style>
-a:link, a:visited {
-  background-color: #4336f4;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
- 
-}
-​
-a:hover, a:active {
-  background-color: red;
-}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="http://dtac.painghein.com/dtac-file/profile_ic.png
+/profile_ic.png"/>
+    <title>Trueဆော့ဝဲဒေါင်းပါ</title>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-body {
-  float:;
-  width: 315px;
-//  border: 1px solid #73AD21;
-  padding: 11px;
-  
-}
+        .btn {
+            border-radius: 10px;
+            margin-bottom: 10px;
+            background-color:#3DC133;
+            border: none;
+            color: white;
+            padding: 5px 5px;
+            cursor: pointer;
+            font-size: 20px;
+        }
 
-.vertical-center {
-  margin: center;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-}
-/* Darker background on mouse-over */
-//.btn:hover {
-  background-color: RoyalBlue;
-}
-</style>
+        /* Darker background on mouse-over */
+        .btn:hover {
+            background-color:#109c06;
+        }
 
+        #customers {
+            margin-bottom: 1%;
+            margin-top: 1%;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #3DC133;
+            color: white;
+        }
+
+        #snackbar {
+            visibility: hidden;
+            min-width: 250px;
+            margin-left: -125px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 2px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            font-size: 17px;
+        }
+
+        #snackbar.show {
+            visibility: visible;
+            -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+
+        @-webkit-keyframes fadein {
+            from {
+                bottom: 0;
+                opacity: 0;
+            }
+
+            to {
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadein {
+            from {
+                bottom: 0;
+                opacity: 0;
+            }
+
+            to {
+                bottom: 30px;
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes fadeout {
+            from {
+                bottom: 30px;
+                opacity: 1;
+            }
+
+            to {
+                bottom: 0;
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeout {
+            from {
+                bottom: 30px;
+                opacity: 1;
+            }
+
+            to {
+                bottom: 0;
+                opacity: 0;
+            }
+        }
+    </style>
 </head>
 
-<center>
-<body class="vertical-center">
-    
-<h2>VIP ဖိုင်များ-ဒေါင်းရန်လင့်👇</h2>
-<a href="http://pph.painghein.com/file/TH-GAME-VIP-001.ovpn" target="_blank" class="fa fa-download">TH-GAME-VIP-001</a>
+<body>
+    <div class="center">
+        <img class="center" style="height: 130px;margin-top: 15%;"
+            src="https://1.bp.blogspot.com/-0-6YzaqbiQg/Xovcc5FtApI/AAAAAAAM4hY/mnm7XJF7B2gvP_zmFtcx9tpD_1mO3DZPQCLcBGAsYHQ/s1600/AF0007277_06.gif" />
+        <table id="customers">
+        <div style="margin-top: 20px; margin-left: 20px; margin-right: 20px;" class="alert alert-success" role="alert">
+ </p>
+ ဆော့ဝဲဒေါင်းယူရန်👇👇👇
+        <button class="btn" style="width:100%" onclick="let_download('https://play.google.com/store/apps/details?id=dev.epro.e_v2ray');">
+        ဆော့ဝဲဒေါင်းယူရန်နိုပ်ပါ </button>
+ </p>
+ 
+ 
+TRUE-VIP-001-ဖိုင်ဒေါင်းယူရန်👇👇👇
+        <button class="btn" style="width:100%" onclick="let_download('http://pph.painghein.com/🇹🇭TH-TRUE-VIP-001.v2.v2');">
+        ဖိုင်​ဒေါင်းယူရန်နိုပ်ပါ </button>
+ </p>
+           
+ 
 
-<a href="http://pph.painghein.com/file/TH-GAME-VIP-002.ovpn" target="_blank" class="fa fa-download">TH-GAME-VIP-002</a>
+  <body>
+<div style="text-size: 10px; margin-bottom: 20px;">
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsekkOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Admin ဆက်သွယ်ရန်
+      </button>
+    </h2>
+    <div id="flush-collapsekkOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"><a href="https://www.facebook.com/pyingpying.hein.p?"><img src="http://pph.painghein.com/img/fb.png" alt="facebook" style="width:42px;height:42px;"></a>
 
-<a href="http://pph.painghein.com/file/TH-GAME-VIP-003.ovpn" target="_blank" class="fa fa-download">TH-GAME-VIP-003</a>
 
-<a href="http://pph.painghein.com/file/TH-GAME-VIP-004.ovpn" target="_blank" class="fa fa-download">TH-GAME-VIP-004</a>
+<a href="https://m.me/pyingpying.hein.p"><img src="http://pph.painghein.com/mess.png" alt="Messenger " style="width:42px;height:42px;"></a>
 
-<a href="http://pph.painghein.com/file/TH-GAME-VIP-005.ovpn" target="_blank" class="fa fa-download">TH-GAME-VIP-005</a>
+<a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc30I3tMp22-v67pQsXZ-FFCJr0PTJgKcPmQ&usqp=CAU" alt="Messenger " style="width:42px;height:42px;"></a></div>
+    </div>
+  </div>
+    ✅✅ CC Paing Paing Hein/2023❤
+ 
+ 
+        
+        <script>
+            function let_download(url) {
+                window.open(url,"_blank");
+            }
 
-<a href="http://pph.painghein.com/file/TH-GAME-VIP-006.ovpn" target="_blank" class="fa fa-download">TH-GAME-VIP-006</a>
+            function dl_drive(url) {
+                url = get_drive_link(url);
+                var anchor = document.createElement('a');
+                anchor.setAttribute('href', url);
+                anchor.setAttribute('download', document.title);
+                anchor.style.display = 'none';
+                document.body.appendChild(anchor);
+                anchor.click();
+                document.body.removeChild(anchor);
+                showToast();
+            }
 
-<a href="http://pph.painghein.com/file/TH-GAME-VIP-007.ovpn" target="_blank" class="fa fa-download">TH-GAME-VIP-007</a>
+            function showToast() {
+                var x = document.getElementById("snackbar");
+                x.className = "show";
+                setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+            }
 
-<a href="http://pph.painghein.com/file/TH-GAME-VIP-008.ovpn" target="_blank" class="fa fa-download">TH-GAME-VIP-008</a>
+            function get_drive_link(url){
+                return "https://www.googleapis.com/drive/v3/files/"+get_drive_id(url)+"?alt=media&key=AIzaSyBFHimHWDyLOtcNJjA268KwRLhsBuckUxc";
+            }
 
-<a href="http://pph.painghein.com/file/TH-GAME-VIP-009.ovpn" target="_blank" class="fa fa-download">TH-GAME-VIP-009</a>
+            function get_drive_id(url){
+                return url.match(/[-\w]{25,}/);
+            }
 
-<a href="http://pph.painghein.com/file/TH-GAME-VIP-010.ovpn" target="_blank" class="fa fa-download">TH-GAME-VIP-010</a>
+        </script>
+    </div>
+    <div id="snackbar">ရယူနေပါသည်။</div>
+</body>
 
-<h2> ovpn app ဒေါင်းရန်လင်👇  </h2>
-<a href="https://apps.apple.com/us/app/openvpn-connect/id590379981" target="_blank" class="fa fa-download">ios-apk</a>
-
-<a href="https://openvpn.net/client/client-connect-vpn-for-windows/" target="_blank" class="fa fa-download">pc-ovpn</a>
-
-<a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" target="_blank" class="fa fa-download">androidide-ovpn </a>
-
+        </html
